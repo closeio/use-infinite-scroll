@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/use-infinite-scroll/static/css/main.21f9dbd2.chunk.css",
+    "main.js": "/use-infinite-scroll/static/js/main.e410b049.chunk.js",
+    "main.js.map": "/use-infinite-scroll/static/js/main.e410b049.chunk.js.map",
+    "runtime-main.js": "/use-infinite-scroll/static/js/runtime-main.abb07ceb.js",
+    "runtime-main.js.map": "/use-infinite-scroll/static/js/runtime-main.abb07ceb.js.map",
+    "static/js/2.a33f1bc3.chunk.js": "/use-infinite-scroll/static/js/2.a33f1bc3.chunk.js",
+    "static/js/2.a33f1bc3.chunk.js.map": "/use-infinite-scroll/static/js/2.a33f1bc3.chunk.js.map",
+    "index.html": "/use-infinite-scroll/index.html",
+    "precache-manifest.dd06044d400f2bf5a0e1587185e902b2.js": "/use-infinite-scroll/precache-manifest.dd06044d400f2bf5a0e1587185e902b2.js",
+    "service-worker.js": "/use-infinite-scroll/service-worker.js",
+    "static/css/main.21f9dbd2.chunk.css.map": "/use-infinite-scroll/static/css/main.21f9dbd2.chunk.css.map",
+    "static/js/2.a33f1bc3.chunk.js.LICENSE.txt": "/use-infinite-scroll/static/js/2.a33f1bc3.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/use-infinite-scroll/static/media/logo.d0a24d1a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abb07ceb.js",
+    "static/js/2.a33f1bc3.chunk.js",
+    "static/css/main.21f9dbd2.chunk.css",
+    "static/js/main.e410b049.chunk.js"
+  ]
+}
