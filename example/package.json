@@ -1,0 +1,23 @@
+{
+  "name": "use-infinite-scroll-example",
+  "homepage": "https://closeio.github.io/use-infinite-scroll",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@closeio/use-infinite-scroll": "./..",
+    "react-scripts": "^3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prepare": "yarn build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}

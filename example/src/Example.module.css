@@ -1,0 +1,20 @@
+.scroller {
+  max-height: 80vh;
+  width: 220px;
+  overflow-y: auto;
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+}
+
+.item {
+  border-radius: 3px;
+  border: 1px solid #333;
+  max-width: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.item > h3 {
+  margin: 0 0 8px 0;
+}

@@ -1,0 +1,11 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["prettier", "prettier/react"],
+  "env": {
+    "es6": true
+  },
+  "plugins": ["prettier", "react", "react-hooks"],
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
