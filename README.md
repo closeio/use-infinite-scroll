@@ -1,6 +1,6 @@
 # use-infinite-scroll
 
-[![NPM](https://img.shields.io/npm/v/closeio_use-infinite-scroll.svg)](https://www.npmjs.com/package/use-infinite-scroll) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-prettier-success)](https://prettier.io)
+[![NPM](https://img.shields.io/npm/v/@closeio/use-infinite-scroll.svg)](https://www.npmjs.com/package/@closeio/use-infinite-scroll) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-prettier-success)](https://prettier.io)
 
 Super simple React hook for creating an infinite scroll experience based on the `IntersectionObserver` API.
 
