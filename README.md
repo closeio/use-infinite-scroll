@@ -32,20 +32,22 @@ const [items, setItems] = useState([]);
 const [hasMore, setHasMore] = useState(false);
 const [page, loaderRef, scrollerRef] = useInfiniteScroll({ hasMore });
 
-useEffect(async () => {
-  const data = await myApiCall({ page });
-  setHasMore(data.hasMore);
-  setItems(prev => [...prev, data.items]);
-}, [page]);
+export default function MyComponent() {
+  useEffect(async () => {
+    const data = await myApiCall({ page });
+    setHasMore(data.hasMore);
+    setItems(prev => [...prev, data.items]);
+  }, [page]);
 
-return (
-  <div ref={scrollerRef}>
-    {items.map(item => (
-      <div key={item.id}>{item.name}</div>
-    ))}
-    {hasMore && <div ref={loaderRef}>Loading…</div>}
-  </div>
-);
+  return (
+    <div ref={scrollerRef}>
+      {items.map(item => (
+        <div key={item.id}>{item.name}</div>
+      ))}
+      {hasMore && <div ref={loaderRef}>Loading…</div>}
+    </div>
+  );
+}
 ```
 
 ## License
