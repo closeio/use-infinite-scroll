@@ -28,11 +28,11 @@ yarn add @closeio/use-infinite-scroll
 import React from 'react';
 import useInfiniteScroll from '@closeio/use-infinite-scroll';
 
-const [items, setItems] = useState([]);
-const [hasMore, setHasMore] = useState(false);
-const [page, loaderRef, scrollerRef] = useInfiniteScroll({ hasMore });
-
 export default function MyComponent() {
+  const [items, setItems] = useState([]);
+  const [hasMore, setHasMore] = useState(false);
+  const [page, loaderRef, scrollerRef] = useInfiniteScroll({ hasMore });
+
   useEffect(async () => {
     const data = await myApiCall({ page });
     setHasMore(data.hasMore);
