@@ -20,3 +20,6 @@ dist
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.lock
+example/*.lock
+example/src/react-app-env.d.ts
